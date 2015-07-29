@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+header{
+	z-index: 1;
+  background-size: cover;
+}
+
+#wrapper{
+	padding-top:20px;
+	max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float:right;
+}
+
+nav {
+	float:left;
+  padding-left: 0%;
+}
+
+nav ul {
+  padding-left: 0%;
+}
+
+nav ul li {
+	margin-right: 1.0416667%;
+	display: inline;
+}
+
+nav ul li a {
+	color: #000;
+	display: inline;
+  line-height: 2.625em;
+  font-size: 1.628117914em;
+  font-weight: 800;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+  font-weight: 900;
+}
+
+#container {
+	padding-top:10em;
+  padding-bottom: 3em;
+  margin-right: auto;
+  margin-left: auto;
+	clear: both;
+	color: #000;
+	font-weight: 500;
+background:url(http://www.taketours.com/images/destination/new%20york%20skyline%20night.jpg) center center;
+  background-size: cover;
+}
+
+#content {
+	font-family: 'Roboto', sans-serif;
+	max-width: 1024px;
+	margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+#content h2 {
+	font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+	font-size: 3.469475358em;
+}
+
+#content a {
+	line-height: 40px;
+	color: #000;
+	font-size: 1.769475358em;
+	margin-left: 30%;
+	clear: right;
+  border: 2px solid #000;
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.5);
+}
+
+#content a:hover {
+	color: #fff;
+  font-weight: 700;
+	font-size: 1.769475358em;
+	margin-left: 30%;
+	clear: right;
+  border: 2px solid #000;
+  background:#7f7f7f;
+  background:rgba(255, 0, 0, 0.5);
+}
+
+footer {
+	clear: both;
+  padding-top: 1em;
+}
+
+footer ul {
+	margin-right: 15%;
+	float: right;
+}
+
+footer ul li {
+	display: inline-block;
+  height: 24px;
+  margin: 0 0 0 10px;
+  text-align: left;
+  width: 24px;
+}
+
+footer ul li a {
+	margin-right: 15%;
+  display: block;
+  height: 24px;
+  width: 24px
+}
+
+footer p {
+	margin-right: 15%;
+	float: right;
+	clear: right;
+}
+
+.github {
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/github-edc899c60c7b3afd0c458e648197f578.svg);
+  background-position: center center;
+}
+
+.linkedin {
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg);
+  background-position: center center;
+}
+
+.twitter {
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
+    background-position: center center
+}
